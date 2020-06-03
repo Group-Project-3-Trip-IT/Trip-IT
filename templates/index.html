@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- -------------- Navbar -------------- -->
+
+    <div class="container">
+        <div class='row justify-content-md-center'>
+            <div class='col-12'>
+                <!-- Image and text -->
+                <nav class="navbar navbar-light ">
+                    <a class="navbar-brand" href="#">
+                        <img src="../static/img/logo.png" width="160" height="180" class="d-inline-block align-top"
+                            alt="" loading="lazy">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------- Cards -------------- -->
+    <div class="container cards p-0">
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-1">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="https://cdn.cheapism.com/images/Where_You_Live_or_Work.2e16d0ba.fill-520x400.png"
+                        class="d-block w-100" alt="New York" height="200">
+                    <div class="card-body pb-0">
+                        <h5 class="card-title">New York</h5>
+                        <p class="card-text">The Big Apple| Largest city in the United States| Financial, Cultural
+                            and Media Capital of the World| Home of New York Yankees| Over 600 Spoken Languages, 1000
+                            Cultural Organizations| Population: 8,336,8179 (2019)</p>
+                        <a href="/NewYorkCity" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="https://content.tripster.com/travelguide/wp-content/uploads/2019/07/Washington-Monument-GettyImages-1008592778-750x450.jpg"
+                        class="d-block w-100" alt="Washington DC" height="200">
+                    <div class="card-body pb-0">
+                        <h5 class="card-title">Washington DC</h5>
+                        <p class="card-text">Formally the District of Columbia| Capital of United State of America|
+                            Over 20 million annual visitors| Home of the US Capitol, White House, Washington Monument|
+                            Population: 705,749 (2019)</p>
+                        <a href="/WashingtonDC" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="https://cdn.britannica.com/s:800x450,c:crop/40/189440-138-4637CAAC/video-Los-Angeles.jpg"
+                        class="d-block w-100" alt="Los Angeles" height="200">
+                    <div class="card-body pb-0">
+                        <h5 class="card-title">Los Angeles</h5>
+                        <p class="card-text">City of Angeles| Run into your favorite celebrity in Holywood| Largest City
+                            of California| Renowned art collections| Home of LA Lakers| Country’s Leading Art Center|
+                            Population: 4,015,936 (2019)</p>
+                        <a href="/LosAngeles" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="https://www.mccarter.com/wp-content/uploads/2019/10/Location-Boston.png"
+                        class="d-block w-100" alt="Boston" height="200">
+                    <div class="card-body pb-0">
+                        <h5 class="card-title">Boston</h5>
+                        <p class="card-text">Known as the City of Firsts| First Public School-Boston Latin | First
+                            College - Harvard University | First Public Park- Boston Commons |First
+                            Subway-Tremont Street, First Telephone | Home of the Red Sox</p>
+                        <a href="/Boston" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+
+    <!-- -------------- Chart -------------- -->
+
+
+    <div class='container chart border border-white p-0'>
+        <div class='row justify-content-md-center'>
+            <div class="col-12 pb-0">
+                <h3 class='p-1' id='chartTitle' style="font-family: Comic Sans MS, cursive, sans-serif;">Today's Weather
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-3 mr-1">
+                <label for="measures" class="bg">Compare cities on:</label>
+                <select class="form-control" style="font-weight: 500;" name="measures" id="measures">
+                    <option value="weather">Today's Weather</option>
+                    <option value="transport">Public Transportation Score</option>
+                    <option value="accomodationPrice">Availability & Price Per Night</option>
+                    <option value="reataurants">Restaurants Average Rating</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row chartRow pr-5">
+            <div class="col-12" id='bar'>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- -------------- Table -------------- -->
+
+    <div class="container dataTable p-0">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <table class="table table-responsive text-center">
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------- Data from Python -------------- -->
+
+    <div class='data' style="display: none;">
+        <div class="weather">
+            <h3>{{ weather}}</h3>
+        </div>
+        <div class="restaurants">
+            <h3>{{ restaurants}}</h3>
+        </div>
+        <div class="bikes">
+            <h3>{{ bikes}}</h3>
+        </div>
+        <div class="trains">
+            <h3>{{ trains}}</h3>
+        </div>
+        <div class="poi">
+            <h3>{{ poi}}</h3>
+        </div>
+        <div class="hotels">
+            <h3>{{ hotels}}</h3>
+        </div>
+        <div class="transportationScore">
+            <h3>{{ transportationScore}}</h3>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="{{ url_for('static', filename='App.js') }}"></script>
+</body>
+
+</html>

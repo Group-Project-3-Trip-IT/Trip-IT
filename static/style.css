@@ -1,0 +1,50 @@
+html,
+body,
+#map {
+    height: 310px;
+    width: 100%;
+    /* align-content: center; */
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 991px) {
+    html,
+    body,
+    #map {
+        height: 300px
+    }
+}
+
+.navbar {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    color: grey;
+}
+
+#chartTitle {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.cityTitle {
+    color: rgb(192, 142, 15);
+    font-weight: 500;
+}
+
+.citySubtitle {
+    color: white;
+}
+
+.bg {
+    color: white!important;
+}
+
+.city_summary {
+    color: white!important;
+    font-size: 1.3em;
+}
