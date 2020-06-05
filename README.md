@@ -4,8 +4,8 @@
 Due to the lockdown, planning trips are amongst the top things that a lot of people are doing and that’s where we decided to create a one stop destination where prospective travelers could gather quick trip related information on some popular cities of US.
 
 ### Project Team :
-- Kendall Marquard
 - Smiti Swain
+- Kendall Marquard
 - Aditya Bhatnagar
 - Salvador Neves
 - Tejas Naik
