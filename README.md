@@ -1,16 +1,16 @@
-##Project Title - Trip IT
+## Project Title - Trip IT
 
-###Project Description:
+### Project Description:
 Due to the lockdown, planning trips are amongst the top things that a lot of people are doing and that’s where we decided to create a one stop destination where prospective travelers could gather quick trip related information on some popular cities of US.
 
-###Project Team:
+### Project Team :
 - Kendall Marquard
 - Smiti Swain
 - Aditya Bhatnagar
 - Salvador Neves
 - Tejas Naik
 
-###Project Technologies:
+### Project Technologies :
 - Python - Flask
 - JavaScript - JavaScript Anime.js library
 - D3
@@ -19,7 +19,7 @@ Due to the lockdown, planning trips are amongst the top things that a lot of peo
 - HTML - Bootstrap
 - Mongo DB
 
-###Data:
+### Data :
 
 -Weather Today: Open Weather API http://api.openweathermap.org API Last Year: meteostat API https://api.meteostat.net
 -Accomodation Inside Airbnb http://insideairbnb.com Web Scraping
