@@ -9,9 +9,6 @@ app = Flask(__name__,static_url_path="/static")
 app.config["MONGO_URI"] = "mongodb://localhost:27017/Trip_IT"
 mongo = PyMongo(app)
 
-# Or set inline
-# mongo = PyMongo(app, uri="mongodb://localhost:27017/craigslist_app")
-
 # main route for Trip-IT Home page
 @app.route("/")
 def index():
