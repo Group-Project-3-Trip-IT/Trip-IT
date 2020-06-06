@@ -3,17 +3,17 @@
 ### Motivation:
 Due to the lockdown, planning trips are amongst the top things that a lot of people are doing and that’s where we decided to create a one stop destination where prospective travelers could gather quick trip related information on some popular cities of US.
 
-### Project Description:
-The purpose of this project is to provide a one-stop source of information for travel enthusiasts. Trip IT provides an interactive platform for users to browse through major cities of US and gather key information about which city to visit. The app is user friendly for all ages and would allow travelers across the globe to plan their trips with ease.<br><br>
-	The app provides real time information about weather, public transportation and main tourist attractions. Users can compare amongst different cities across crucial factors such as average accommodation price per night along with availability. Restaurants can be compared based on their rating and price while users can also make an informed decision on commuting patterns based on their respective public transportation rankings. The weather information is available real time to compare different cities and decide the best time to visit.<br><br>
-	The app also provides specific city related information to users who might be interested in learning about the tourist attraction, eat out places, weather across the year, location of train and bike stations and get a feel of what each city has to offer.
-
 ### Project Team:
 - Smiti Swain
 - Kendall Marquard
 - Aditya Bhatnagar
 - Salvador Neves
 - Tejas Naik
+
+### Project Description:
+The purpose of this project is to provide a one-stop source of information for travel enthusiasts. Trip IT provides an interactive platform for users to browse through major cities of US and gather key information about which city to visit. The app is user friendly for all ages and would allow travelers across the globe to plan their trips with ease.<br><br>
+	The app provides real time information about weather, public transportation and main tourist attractions. Users can compare amongst different cities across crucial factors such as average accommodation price per night along with availability. Restaurants can be compared based on their rating and price while users can also make an informed decision on commuting patterns based on their respective public transportation rankings. The weather information is available real time to compare different cities and decide the best time to visit.<br><br>
+	The app also provides specific city related information to users who might be interested in learning about the tourist attraction, eat out places, weather across the year, location of train and bike stations and get a feel of what each city has to offer.
 
 ### Project Technologies:
 - <b>Data Extraction & Handling</b>: Python, Pandas, APIs, Beautiful Soup
