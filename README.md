@@ -1,7 +1,12 @@
 ## Project Title - Trip IT
 
-### Project Description:
+### Motivation:
 Due to the lockdown, planning trips are amongst the top things that a lot of people are doing and that’s where we decided to create a one stop destination where prospective travelers could gather quick trip related information on some popular cities of US.
+
+### Project Description:
+- User interactivity
+- City comparisson on several metrics
+- Story
 
 ### Project Team:
 - Smiti Swain
@@ -11,13 +16,13 @@ Due to the lockdown, planning trips are amongst the top things that a lot of peo
 - Tejas Naik
 
 ### Project Technologies:
-- Python - Flask
-- JavaScript - JavaScript Anime.js library
-- D3
-- Leaflet
-- Plotly
-- HTML - Bootstrap
-- Mongo DB
+- <b>Data Extraction & Handling</b>: Python, Pandas, APIs, Beautiful Soup
+- Server: Python Flask (App Hosting)
+- Database: Mong DB
+- User Interactivity: JavaScript, D3
+- Data Visualization: Leaflet, Plotly
+- Web Page Visualization: HTML, Bootstrap, Anime.js (Bonus JavaScript library)
+- Styling: CSS
 
 ### Data:
 
